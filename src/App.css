@@ -36,9 +36,3 @@
         transform: rotate(360deg);
     }
 }
-
-.btnWrapS > *,
-.btnWrapL > *,
-.inputWrap > * {
-    margin: 20px;
-}

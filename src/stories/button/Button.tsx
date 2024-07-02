@@ -13,12 +13,12 @@ const ButtonStyled = styled.button<ButtonProps>`
         props.theme === "outline"
             ? "transparent"
             : props.theme === "black"
-              ? "black"
-              : props.theme === "lightGray"
-                ? "lightgray"
-                : props.theme === "darkGray"
-                  ? "darkgray"
-                  : "yellow"};
+            ? "black"
+            : props.theme === "lightGray"
+            ? "lightgray"
+            : props.theme === "darkGray"
+            ? "darkgray"
+            : "yellow"};
     outline: ${(props) =>
         props.theme === "outline" ? "1px solid lightGray" : "none"};
     color: ${(props) => (props.theme === "black" ? "white" : "black")};
